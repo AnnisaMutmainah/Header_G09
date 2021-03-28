@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  font-family: "Georgia";
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 130px 0 100px 0;
+  background-image: url(genie.png);
+  background-size: cover;
+  color: white;
+  text-align: left;
+}
+
+.top-wrapper h1 {
+  font-size: 55px;
+  letter-spacing: 3px;
+  margin-top: 10px;
+}
+
+.top-wrapper p {
+  margin-bottom: 3px;
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-shadow: rgb(10, 10, 10);
+}
+
+.btn-wrapper {
+  margin-top: 30px;
+  padding-bottom: 20px;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(16, 52, 59, 0.9);
+}
+
+.header-left {
+  float: left;
+  padding-top: 15px;
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.header-right,#menu li {
+  margin-top: 12px;
+  padding-top: 0;
+  position: relative;
+  transition: all 0.5s;
+}
+
+#menu li {
+  list-style: none;
+  float: right;
+}
+
+#menu li a {
+  display: inline-block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+#menu li a:hover{background-color: rgba(55, 169, 184, 0.3);}
+
+#menu .contact {margin-right: 35px;}
+#menu .team {margin-right: 35px;}
+#menu .service {margin-right: 35px;}
+#menu .home {margin-right: 35px;}
+
+.more {
+  background: #093b28;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgb(44, 44, 44);
+    float: left;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
